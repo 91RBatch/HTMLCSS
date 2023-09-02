@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="positions.css">
+    <style>
+        html {
+            width: 100%;
+            height:100%;
+        }
+        body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#heading {
+    color: whitesmoke;
+    position: fixed;
+    top:40px;
+    left: 150px;
+
+}
+
+table, th, td {
+    border: 3px solid whitesmoke;
+    /* border-radius: 15px;   */
+    border-collapse: collapse; 
+    color: whitesmoke;
+    margin-top: 180px;
+    margin-left: 140px;
+    text-align: center;
+    column-width: 40px;
+    width: 1085px;    
+    font-size: large;
+    font-family: cursive;
+}
+
+.static {
+    position: static;
+    border: 1px solid whitesmoke;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid whitesmoke;
+    left:120px;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid whitesmoke;
+  }
+
+  div.fixed {
+    position: fixed;
+    top: 400px;
+    bottom: 150;
+    right: 50;
+    width: 300px;
+    border: 3px solid whitesmoke;
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid whitesmoke;
+    color: black;
+  }
+    </style>
+</head>
+<body>
+    <h1 id="heading"><u>CSS Position Property</u></h1>
+    <div>
+        <table >
+            <tr>
+                <th>Position type</th>
+                <th>Example</th>
+            </tr>
+            
+                <tr>
+                    <td>
+                        Static Position
+                    </td>
+                    <td>
+                        <details>
+                            <summary>Click to open static position Example</summary>
+                            <div>
+                                <h4>position: static;</h4>
+
+                                <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+                                <div class="static">
+                                    This div element has position: static;
+                                </div>
+                            </div>
+                        </details>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Absolute and Relative Position</td>        
+                <td>
+                    <details>
+                        <summary>Click to open Absolute/Relative Position Example</summary>
+                        <h4>position: absolute;</h4>
+
+                        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+                        <div class="relative">This div element has position: relative;
+                        <div class="absolute">This div element has position: absolute;</div>
+                        </div>
+                    </details>
+                </td>
+                </tr>
+                <tr>
+                    <td>Fixed Position</td>
+                    <td>
+                        <details>
+                            <summary>Click to open Fixed position Example</summary>
+                            <h5>position: fixed;</h5>
+
+                            <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+                            <p class="fixed">
+                           <u>fixed Element</u>
+                            </p>
+                        </details>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sticky Position</td>
+                    <td>
+                        <details>
+                            <summary>Click to open Sticky Position Example</summary>
+                            <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+                            <div class="sticky">I am sticky!</div>
+
+                            <div style="padding-bottom:2000px">
+                        <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+                        <p>Scroll back up to remove the stickyness.</p>
+                        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                            </div>
+
+                        </details>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>
