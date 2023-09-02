@@ -1,0 +1,134 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+}
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 80px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+section {
+  border: 2px solid white;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIVFRUXFRUXFxUVFRUXFRcVFRUXFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJ4BPwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAf/xAAhEAEBAQEBAAICAwEBAAAAAAAAAQIREgMhMWFBUYFx8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD4pC4igixFApV6CwFpZgQ+ApZc+H2ASdXiyAuDmQycBZSqcOQFxCmf8XOfr/3+OkyDn540jpYkkAblPLpNJn9g4bcuvTuOGsgKVcrQcx2doaoJ1NN0aCWNxm6CRqlQF4ydaUC6lFfQDwoPtOgbN1gXiSMUBOItrdBliyNIDRfJSL0FzDzExCsBuHxIWYBzK4jYjpKC5VpFnAXqWfZSNYDnakp1JkHP5I5aejccNg5yDSkGgA6OhsBo0hoNQ0fR0AqkrAvGiVJQWsUSwB4UjWpKDLELoNKotAarluFQWZbEaLKBSLPwPTBcx0gYpygp5gHmg6QpHOUsUHWFnjnIQF3+msGxcglrS/wuhgJqOW8u9rnuA8+g07bn8B5BxqU9fhP4BLAuWvyJaAyjutmJoAX0yA3VjZLILKur9JmxOgMS0q3QaNxovAbjMlgHClHN+hmgdZotVywfQXixuNwCy6xzzk4ByFlz9Lmg7SHA6voGtLNDhyA6dHNTVafoHRztK9HgNB06zLaoPN5o/Ttpy0DjY56d9OWoDjf+Jx08p5BxtaQ7E1kHOxHTynkB4sXy0gNVTyecQBsc667c/ILFQsgPC8lcrkGv4CZLpzUAZOFF8p5ArpJVsQDzspXGOuQMp+hhwFhpgpkGjpctjLrYDjJVdJlfIBPkKDqRL9A3v8pbaF1/ZWgGvtz1HTTj8ugG0a0TVBOB8lVz1fsEo1d0AWsjdBY3ElK6BowddAShw9Ofqg6JK3pAdZUuhhcBrUlLyIHNHK5w8AVHRWDJQZ0zAOaBeumaOY6YyDSFFq4naDr8MMOcS7A1ze/kfVXOoBaw56PWnPQOe599KT+0q+QFw+T9u3XL5Ac9OXp1289oLdud0yUFtSrmN5BrRL6bgJYMpWJcgJ/Fv+BXXOgXyOfD1RoNxYzWAs0soLKDraEIKB0455KgU0vakKAl0UC/8af4D0T9F6c8UuAfpca/YjKD035SzXDJTgOutfttVwn3Sn5+gdZ1tfhvQ73Aa/Jz8pfkc/cqX9AutOWqtrjvX0Cb05rW4AVFtXM+gKJUg0Gq9DVW0G6NqpwGlIYtv2C6+hmj1ewJAKNaUKyA5Kq/wDSjqmOgaVboWgOsXiYKg3V6FL2Drl0xr6ccaXWgdbobUmk6B+vpM3g+uBd/YO+a6Y0883XWXgH6ctylv5Amugmp9Dyug6oOfpztdKEyCpYf4EAsXi0dUGtGt1qAWMo0FlVMsDSLI0rQB42S1GBjgECcXrdjUGRm4CcLMRug6NipkwTTRKuaBZvD7A9NNAetJ74l059B0tShdFAdMuma5jnoLulgYcBdVy1T1pztAerKEizQOrnpfTlfkBbU6nppQVanBoNoSlSgjdbqdBYtosBWpVjaBlqQoDZaQpGAeNatg6oMnWy1App0zXF0xQLSemtCg6TS9gZLNBLUjWrgG665056yEoO/pJXK1pQejo1Pj10qCWhqlQ1ACIUn21yAVDG0EZep0HQbCzU2A8SlmtoA43FtGgdo5iLkFlWxk0D/2Q==);
+  background-size: cover;
+  width: 100%;
+}
+#div0 {
+  background-image: url(https://www.livveganstrong.com/wp-content/uploads/2022/02/Pesto-Broccoli-Pasta-Spicy-Cauliflower-full-scaled.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+  left: 50px;
+}
+p {
+  color: aliceblue;
+  margin-left: 500px;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+}
+.parentdiv {
+  border: 2px none;
+  display: flex;
+}
+.div1 {
+  border: 2px solid none;
+  padding: 20px;
+}
+.div2 {
+  border: 2px solid none;
+
+  padding: 20px;
+}
+.div3 {
+  border: 2px solid none;
+  padding: 20px;
+}
+.div4 {
+  border: 2px solid none;
+  padding: 20px;
+}
+.div5 {
+  border: 2px solid none;
+  padding: 20px;
+}
+.div6 {
+  border: 2px solid none;
+  padding: 20px;
+}
+aside {
+  border: 2px solid none;
+  background-color: rgb(255, 222, 228);
+  display: flex;
+}
+.id1 {
+  padding: 60px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+#class1 {
+  border: 2px solid none;
+  display: flex;
+}
+#class2 {
+  border: 2px solid none;
+}
+#class3 {
+  border: 2px solid none;
+}
+#class4 {
+  border: 2px solid none;
+}
+.r1 {
+  padding: 60px;
+  padding-top: 200px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(255, 255, 215);
+}
+#d1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+  font-size: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid none;
+  background-color: rgb(186, 183, 183);
+  height: 230px;
+  padding-top: 10px;
+}
+input {
+  padding-left: 100px;
+  height: 50px;
+  width: 300px;
+}
+input:hover {
+  background-color: blueviolet;
+  font-style: italic;
+}
+pre {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#in {
+  height: 40px;
+  width: 60px;
+  border-radius: 9px;
+}
