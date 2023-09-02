@@ -1,0 +1,95 @@
+body{
+    
+   display: inline-block;
+   padding-left: 350px;
+max-width: 100%;
+
+}
+
+form div{
+    margin:15px;
+    
+}
+
+
+.log{
+    height:20px;
+    width:180px;
+        
+    
+}
+.main{
+    
+    padding:0;
+    margin:0;
+
+    
+}
+
+
+
+.details {
+    margin-left: 400px;
+
+
+}
+#age{
+    width:37px;
+}
+
+
+
+button{
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+
+.tel{
+    color: blue;
+}
+h3{
+    background-color:steelblue;
+    border-radius: 3px;
+    color:white;
+    
+    
+    
+}
+fieldset{
+    background-color:beige;
+    border-radius: 3px;
+    
+}
+sup{
+    color: red;
+}
+
+.age{
+    color: black;
+}
+
+img {
+    border-radius: 20%;
+    width: 90px;
+    height: 90px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

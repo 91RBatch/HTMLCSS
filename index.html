@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    <style>
+        a{
+    text-decoration: none;
+        }
+    </style>
+    </head>
+    <body>
+<form><!-- form -->
+    <div><!-- div tag -->
+        <center><h1>User Registration</h1></center><!-- h1 tag -->
+        <p><strong>Important Information:</strong>Passport application can be processed at any
+             PSK/POPSK/PSLK WITHIN INDIA irrespective of your residential address.</p><!-- paragraph tag -->
+        <p>Fields marked with asterisk (*) are mandatory</p><!-- paragraph -->
+    <ul><!-- ul tag -->
+        <li><a href="#">click here</a>to check the appointment availability at all PSK/POPSK/PSLK.</li><!-- li -->
+    <li><a href="#">click here</a>to know more about Apply <!-- a tag -->
+        Anywhere in India scheme for Passport Services.</li>
+    </ul>
+    </div>
+    <br/><!-- br -->
+    <div>
+        <label for="register">Register to apply at<sup>*</sup></label><!-- label -->
+        <input type="radio" id="register" value="register" name="register"/><!-- input -->
+        
+        <label for="register">CPV Delhi</label><!-- label -->
+        
+        
+        <input type="radio" id="reg" value="register" name="register" /><!-- input -->
+<label for="reg">Passport Office</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- label -->
+<span>Select the 'CPV Delhi' option to apply for Diplomatic/Official passport at Consular, 
+    Passport and Visa (CPV)division,Delhi.</span><!-- span -->
+</div>
+<br/><!-- br -->
+    <div>
+    <label>Passport Office <sup>*</sup></label><br/><!-- label -->
+    <small>(As per Present Residential Address)</small><!-- small -->
+    <select>                                          <!-- select start -->
+        <option></option><!-- option start -->
+        <option>Hyderabad</option>
+        <option>Bengaluru</option>
+        <option>Delhi</option>
+        <option>Goa</option>
+        <option>Chennai</option><!-- option end -->
+    </select><!-- select end -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Tibetan Refugees applying for 
+Identity Certificate must register with 'Delhi' Passport Office.</span><!-- span -->
+</div>
+<br/><!-- div-->
+<div>
+    <label for="name">Given Name <small>(Max 45 Characters)</small><sup>*</sup></label><!-- label -->
+    <input name="" id="name" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- input -->
+    <small><b>First Name + Middle Name</b><!-- small -->
+    Initials and honorifics (e.g. Dr.,Col.,etc.) are not allowed.</small>
+</div>
+<br/><!-- br -->
+<div>
+    <label for="surname">SurName<small>(Max 45 Characters)</small></label><!-- label -->
+    <input  id="surname" /><!-- input -->
+</div>
+<br /><!-- br -->
+<div>
+    <label for="date">Date of Birth (DD/MM/YYYY)<sup>*</sup></label><!-- label -->
+    <input type="date" id="date"/><!-- input -->
+</div>
+<br /><!-- br -->
+<div>
+    <label>E-mail Id<small>(Max 35 Characters)</small><sup>*</sup></label><!-- label -->
+    <input  type="email" id="email" name="" placeholder="" value=""/><!-- input -->
+</div>
+<br /><!-- br -->
+<div>
+    <label>Do you want your Login Id
+    to be same as E-mail Id?</label><!-- label -->
+    <input type="radio" name="email" /><!-- input -->
+    <label for="email">Yes</label><!-- label -->
+    <input type="radio" name="email" /><!-- input -->
+    <label for="email">No</label><!-- label -->
+
+</div>
+<br /><!-- br -->
+<div>
+    <label for="login">Login Id<sup>*</sup></label><!-- label -->
+    <input  type='email' name="" id="login"/><!-- input -->
+    <a href="#">Check Availability</a><!-- a tag -->
+</div>
+<br /><!-- br -->
+<div>
+    <label for="password">Password<sup>*</sup></label><!-- label -->
+    <input type="password" id="password"/><!-- input -->
+    <a href="#">Password Policy</a><!-- a -->
+</div>
+<br /><!-- br -->
+<div>
+    <label for="confirm">Confirm Password<sup>*</sup></label><!-- label -->
+    <input type="password" id="confirm"/><!-- input -->
+</div>
+<br /><!-- br -->
+<div>
+    <label>Hint Question<sup>*</sup></label><!-- label -->
+    <select><!-- select start -->
+        <option></option><!-- option start -->
+        <option>Birth Place</option>
+        <option>Favourite color</option>
+        <option>favourite Place</option>
+    </select><!-- select end -->
+</div>
+<br /><!-- br -->
+<div>
+    <label id="hint">Hint Answer<sup>*</sup></label><!-- label -->
+    <input  type="text" id="hint"/><!-- input -->
+</div>
+<br /><!-- br -->
+<div>
+    <center><input type="submit" /></center><!-- center -->
+    <label>name</label>
+    <input type="text" name="name" placeholder="enther the name" />
+    <input type="reset" value="reset" />
+</div>
+    </form>
+    </body>
+</html>
