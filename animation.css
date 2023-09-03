@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 275px;
+}
+.name {
+  font-size: 60px;
+  padding: 2px;
+  font-family: "Amatic SC", cursive;
+  font-family: "Black Ops One", cursive;
+  font-family: "Teko", sans-serif;
+  animation: animation 8s;
+  text-shadow: 0 0 5px lightblue;
+  animation-iteration-count: calc(2);
+  background-image: linear-gradient(white, black);
+  color: black;
+}
+.name:nth-child(7) {
+  transform: translateX(100px);
+  animation-delay: 5s;
+}
+.name:nth-child(6) {
+  transform: translateX(100px);
+  animation-delay: 4.5s;
+}
+.name:nth-child(5) {
+  transform: translateX(100px);
+  animation-delay: 5s;
+}
+.name:nth-child(4) {
+  transform: translateX(100px);
+  animation-delay: 4.5s;
+}
+.name:nth-child(3) {
+  transform: translateX(100px);
+  animation-delay: 5s;
+}
+.name:nth-child(2) {
+  transform: translateX(100px);
+  animation-delay: 4.5s;
+}
+.name:nth-child(1) {
+  transform: translateX(100px);
+  animation-delay: 5s;
+}
+
+@keyframes animation {
+  0% {
+    transform: translateX(-800px);
+  }
+  100% {
+    background-image: linear-gradient(white, black);
+    animation-delay: 9s;
+    color: black;
+    width: 20px;
+  }
+}
