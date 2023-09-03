@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 1rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#div1 {
+  height: 5px;
+  background-color: #2c4152;
+}
+
+#hd {
+  width: 1225px;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+
+#div3 {
+  float: left;
+}
+
+.div4 {
+  width: 400px;
+  height: 30px;
+  margin: 0;
+  float: right;
+  font-family: monospace;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#a1,
+#a2,
+#a3 {
+  color: #2c4152;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+#a3 {
+  height: 30px;
+  background-color: black;
+  color: gold;
+  padding-top: 15px;
+}
+nav {
+  width: 300px;
+  height: 1270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2c4152;
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+#search {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: rgba(253, 253, 215, 0.95);
+}
+.div6 {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding-top: 25px;
+  background-color: black;
+}
+.div7 {
+  width: 915px;
+  height: 400px;
+  position: absolute;
+  top: 105px;
+  left: 300px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://assets.ajio.com/cms/AJIO/WEB/25082023-mhp-d-main-p5-cantabil-crocodile-flat50.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 0 1px 1px;
+}
+#div8 {
+  width: 915px;
+  height: 120px;
+  margin: 0 0 1px 1px;
+  position: absolute;
+  left: 300px;
+  top: 405px;
+  background-color: rgba(197, 168, 212, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.div9 {
+  width: 915px;
+  height: 520px;
+  margin: 1px 0 0 1px;
+  position: absolute;
+  top: 525px;
+  left: 300px;
+  background-image: radial-gradient(
+    orange,
+    white,
+    rgb(135, 180, 135),
+    rgb(175, 136, 212),
+    blueviolet
+  );
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.div10 {
+  margin: 50px 0 0 0;
+  width: 915px;
+  height: 380px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0;
+}
+.i1 {
+  background-image: url(https://assets.ajio.com/cms/AJIO/WEB/18082023-D-MHP-AjioExclusives-gap-superdry-3050.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.i2 {
+  background-image: url(https://assets.ajio.com/cms/AJIO/WEB/18082023-D-MHP-AjioExclusives-produktbyjj-budajeans-starting499.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.i3 {
+  background-image: url(https://assets.ajio.com/cms/AJIO/WEB/18082023-D-MHP-AjioExclusives-azorte-upto60.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #2c4152;
+}
+#ft {
+  width: 915px;
+  height: 315px;
+  margin: 5px 0 0 1px;
+  position: absolute;
+  top: 1055px;
+  left: 300px;
+  background-color: #2c4152;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 38px;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+}
