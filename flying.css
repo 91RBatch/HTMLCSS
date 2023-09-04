@@ -29,7 +29,7 @@ body {
 }
 
 .circle:nth-child(3) {
-  background-color: greenyellow;
+  background-color: limegreen;
   animation-delay: 0.2s;
 }
 .circle:nth-child(4) {
