@@ -1,0 +1,61 @@
+h1{
+text-align: center;
+}
+h4{
+    background-color: lightpink;
+}
+.para{
+    background-color: cadetblue;
+    font-size: 30px;
+}
+#name{
+    background-color: blueviolet;
+    color: white;
+}
+h3,h6,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    background-color:lightgrey;
+}
+.des p{
+    background-color: honeydew;
+    font-family: monospace;
+}
+.child > p{
+    background-color: rgb(212, 134, 17);
+}
+.adj+p{
+    background-color: mediumvioletred;
+}
+.one~p{
+background-color: brown;
+}
+
+.colo{
+    background-color: rgb(100,50,0);
+}
+.hsl{
+    background-color: hsl(0,100%,50%);
+}
+.hexa{
+    background-color: #ffd9cc;
+}
+
+.text{
+    border: 2px solid black;
+    text-align: start;
+    text-decoration-line: overline ;
+    text-decoration-color: darksalmon;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 1px;
+}
+.data{
+    line-height: 50px;
+    word-spacing: 50px;
+    white-space: nowrap;
+    
+}

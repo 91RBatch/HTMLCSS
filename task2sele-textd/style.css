@@ -1,0 +1,23 @@
+video{
+    height:200px;
+    width:200px;
+}
+
+form div{
+    margin: 15px;
+}
+h1{
+    text-align: center;
+}
+form {
+    border: 2px dotted black;
+    text-align: center;
+}
+body{
+    background-color:lightyellow;
+}
+button{
+    border-radius: 3px;
+    font-size: 20px;
+}
+                                  

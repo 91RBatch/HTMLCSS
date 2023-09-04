@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form details</h1>
+    <form  action="./select.html" method="get">
+        <div>
+            <label for="name">FirstName:</label><!-- firstname -->
+             <input type="text" id="name" name="name" placeholder="firstname"/>
+        </div>
+        <div>
+            <label for="last">LastName:</label><!-- lastname -->
+            <input type="text" id="last" name="name" placeholder="lastname" />
+        </div>
+        <div >
+            <label for="name">Languages</label><!-- languages -->
+            <input type="checkbox" class="check"   />
+            <label>Telugu</label>
+            <input type="checkbox"/>
+            <label>Hindi</label>
+            <input type="checkbox" />
+            <label>English</label>
+            </div>
+        <div>
+            <label for="gender">Gender</label><!-- gender -->
+            <input type="radio" name="gender"/>
+            <label>Female</label>
+            <input  type="radio" name="gender"/>
+            <label>Male</label>
+            
+        </div>
+        <div>
+            <label for="married">Marital Status</label><!-- marital status -->
+            <input type="radio" name="married" />
+            <label>Married</label>
+            <input type="radio" name="married" />
+            <label>UnMarried</label>
+        
+        </div>
+        <div>
+            <label for="email">Email:</label><!-- email -->
+            <input type="email" name="email" placeholder="email"/>
+        </div>
+        <div>
+            <label for="password">password:</label><!-- password -->
+            <input type="password" name="password" placeholder="password" />
+        </div>
+        <div>
+            <label>Date of Birth</label><!-- DOB -->
+            <input type="date"/>
+        </div>
+        <label for="course">Courses</label><!-- courses -->
+        <input type="radio" name="course" />
+        <label>Front End Developer</label>
+        <input type="radio" name="course" />
+        <label>Beck End Developer</label>
+        <div>
+            <label>City:</label>
+            <select>
+                <option></option>
+                <option value="hyd">hyderabad</option><!-- city -->
+                <option value="nag">Nagole</option>
+                <option value="lb">LBnagar</option>
+                <option value="upp">uppal</option>
+            </select>
+        </div>
+        <div>
+            <label for="diss">districts</label><!-- districts -->
+            <input list="dis" name="diss" id="diss"/>
+            <datalist id="dis">
+                <option id="dis">RReddy</option>
+                <option>Suryapet</option>
+                <option>hyderabad</option>
+                <option>nalgonda</option>
+            </datalist>
+        </div>
+        <div>
+            <label>Upload Resume</label><!-- file -->
+            <input type="file"/>
+        </div>
+        <div>
+            <label>Self Introduction:</label><!-- video -->
+            <iframe width="944" height="531" src="https://www.youtube.com/embed/axo2EQ_1HAI"
+                title="Hyper Aadi, Pradeep | Funny Joke | Dhee 14 | The Dancing Icon | 20th July 2022 | ETV Telugu" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+           <!-- <video controls  >
+            <source  src="https://www.youtube.com/embed/axo2EQ_1HAI"  type="video/mp4"/>
+           </video> -->
+           <!-- <iframe src="https://www.youtube.com/embed/axo2EQ_1HAI"></iframe> -->
+        </div>
+<div>
+    <audio controls><!-- audio-->
+        <source src="./audio/baby.mp3"/>
+    </audio>
+</div>
+<button type="submit">submit</button><!-- submit -->
+        </div>
+    </form>
+</body>
+</html>
