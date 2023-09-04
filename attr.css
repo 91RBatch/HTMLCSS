@@ -1,0 +1,29 @@
+/* li[class="a"] {
+  background-color: red;
+} */
+/* 
+
+
+div p:first-child{
+    background-color: red;
+}
+
+div p:last-child{
+    background-color: yellow;
+}
+
+div p:nth-child(2){
+    border: 2px solid red;
+} */
+
+/* div p::first-line {
+  background-color: red;
+}
+
+div p::first-letter {
+  color: green;
+} */
+
+diV p::before {
+  content: "P";
+}
