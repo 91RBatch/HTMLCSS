@@ -1,0 +1,346 @@
+* {
+  font-family: "Raleway", sans-serif;
+  /* background-color: black; */
+}
+.container {
+  background-color: blue;
+  color: white;
+  aspect-ratio: 16/9;
+}
+/* .imgContainer {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 3/2;
+} */
+/* .gridContainer {
+  display: grid;
+  margin-top: 5px;
+  padding: 10px;
+  grid-template: repeat(4, 30px) / repeat(4, 25%);
+  grid-template-areas:
+    "header header header header"
+    "footerNav section section section"
+    "footerNav section section section"
+    "footer footer footer footer";
+}
+.header {
+  background-color: red;
+  grid-area: header;
+}
+
+.section {
+  grid-area: section;
+  background-color: yellow;
+}
+.footer {
+  grid-area: footer;
+  background-color: green;
+}
+.footerNavigation {
+  grid-area: footerNav;
+  background-color: blue;
+  color: white;
+}
+
+.header,
+.footer,
+.footerNavigation,
+.section {
+  text-align: center;
+  border: 2px solid black;
+} */
+/* .container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  border: 2px solid yellow;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+/* .container {
+  width: 100%;
+  display: grid;
+  grid-template:
+    repeat(3, auto)
+    / repeat(3, auto);
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+} */
+
+/* .top,
+.middle,
+.bottom {
+  width: 100vw;
+  height: 290px;
+}
+.top {
+  background-color: #ff671f;
+}
+.middle {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 250px;
+  height: 290px;
+  border-radius: 50%;
+  outline: 2px solid darkblue;
+}
+
+.bottom {
+  background-color: green;
+} */
+
+/* .loader {
+  display: inline-block;
+  margin: 100px;
+}
+.ball {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  margin-inline: 5px;
+  animation: bounce 450ms alternate infinite;
+}
+.ball:nth-child(1) {
+  background-color: orange;
+  animation-delay: 150ms;
+}
+.ball:nth-child(2) {
+  background-color: white;
+  animation-delay: 300ms;
+}
+.ball:nth-child(3) {
+  background-color: green;
+  animation-delay: 450ms;
+}
+
+@keyframes bounce {
+  from {
+    transform: scaleX(1.25);
+  }
+  to {
+    transform: translateY(-50px) scaleX(1);
+  }
+} */
+
+/* @keyframes changeColor { */
+/* from {
+    background: url(/123.jpg);
+  }
+  to {
+    background: url(/pic1.png);
+  } */
+/* 0% {
+
+    background-color: aqua;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  } */
+/* 0% {
+    left: 10px;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: 150px;
+  } */
+/* } */
+
+/* div {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  border: 2px solid;
+
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+  position: relative;
+  animation-name: changeColor;
+} */
+
+/*       start middle end */
+/* ease   slow   fast  slow*/
+/* ease-in slow  fast  fast*/
+/* ease-out fast fast slow */
+/* linear   same speed */
+/* ease-in-out slow fast slow */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  transition: width 4s ease-in, height 4s ease-out, transform 4s linear;
+}
+
+div:hover {
+  width: 500px;
+  height: 300px;
+  transform: rotate(90deg);
+} */
+/* p {
+  writing-mode: vertical-lr;
+} */
+/* .text1 {
+  border: 2px solid;
+  width: 140px;
+  word-break: break-all;
+}
+.text2 {
+  border: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+/* img {
+  width: 100%;
+  height: auto;
+  box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+
+/* h1 {
+  color: red;
+  font-size: 50px;
+  font-family: cursive;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+
+/* .navContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.listDiv {
+  flex: 1 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .listDiv {
+    flex: 1 0 auto;
+  }
+} */
+
+/* @media print{
+   header,main{
+      display: none;
+   }
+   footer{
+      font-family: cursive;
+   }
+} */
+
+/* .divClass {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border: 1px solid black;
+  box-shadow: 10px 10px 4px 50px green;
+} */
+
+/* 
+
+@media only screen and (max-width:450px){
+   .divClass{
+       background-color: burlywood;
+   border: 1px solid black;
+   }
+}
+
+@media only screen and (min-width:450px) and (max-width:768px){
+   .divClass{
+      background-color: lightyellow;
+   border: 1px solid violet;
+   }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+.divClass{
+      background-color: pink;
+   border: 1px solid yellow;
+   }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1500px){
+.divClass{
+      background-color: white;
+   border: 1px solid green;
+   }
+}
+
+@media only screen and (min-width:1500px) and (max-width:1800px){
+.divClass{
+      background-color: green;
+   border: 1px solid red;
+   }
+}
+
+@media only screen and (min-width:1800px) and (max-width:2500px){
+.divClass{
+      background-color: blue;
+   border: 2px solid red;
+   }
+}
+*/
+
+/* 
+>=2500 -> bg red,border:black;
+<2500 and >=1800 > bg color blue border:yellow
+<1800 and >=1500 -> bg color green border : red;
+<1500 and >=1024 -> bg color white border: green;
+<1024 and >=768 -> bg color pink and border yellow;
+<768 and >=450  -> bg lightyellow and border violet;
+<450 => bg color burlywood border : black; */
