@@ -1,0 +1,57 @@
+Bootstrap: front end framework, easy and faster for web development
+Containers in bootstrap
+
+.container class: responsive fixed width.
+.container-fluid: full width container,width is always 100%
+
+container pt-5 ----				paddingg top with 5px in all direction
+container p-5 my-5 border -			 margin-y axis(top-bottom)& padding width 5px, with border
+container p-5 my-5 bg-dark text-white-		margin-y axis(top-bottom)& width 5px,backgroundcolor-dark
+container p-5 my-5 bg-primary text-white  -     margin-y axis(top-bottom)& width 5px,backgroundcolor-primary and text color-white  
+
+container-sm	-
+
+<576px  extraSmall --	100%
+≥576px	small	   --   540px
+≥768px	medium   --     720px
+≥992px	 large   --     960px
+≥1200px	 extra large -- 1140px
+≥1400px  xxl        -- 1320px
+
+
+container-md
+
+<576px  extraSmall --	100%
+≥576px	small	   --   100%
+≥768px	medium   --     720px
+≥992px	 large   --     960px
+≥1200px	 extra large -- 1140px
+≥1400px  xxl        -- 1320px
+
+
+container-lg
+
+<576px  extraSmall --	100%
+≥576px	small	   --   100%
+≥768px	medium   --     100%
+≥992px	 large   --     960px
+≥1200px	 extra large -- 1140px
+≥1400px  xxl        -- 1320px
+
+container-xl
+
+<576px  extraSmall --	100%
+≥576px	small	   --   100%
+≥768px	medium   --     100%
+≥992px	 large   --     100%
+≥1200px	 extra large -- 1140px
+≥1400px  xxl        -- 1320px
+
+container-xxl
+
+<576px  extraSmall --	100%
+≥576px	small	   --   100%
+≥768px	medium   --     100%
+≥992px	 large   --     100%
+≥1200px	 extra large -- 1140px
+≥1400px  xxl        -- 1320px
